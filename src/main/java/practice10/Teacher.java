@@ -33,7 +33,6 @@ public class Teacher extends Person {
                 result = result + Integer.toString(classes.get(i).getClassName())+", ";
             result = result + Integer.toString(classes.get(classes.size() - 1).getClassName())+".";
             return result;
-
         }
         else
             return result + " I teach No Class.";
